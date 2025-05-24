@@ -17,5 +17,22 @@ d. unmodified. the repo is as it is
 8. git add. . this is to add all the changes i have made in case if many changes exist to the git staging area
 9. git commit -m" Add Some Meaningfull Message " . this is the record of changes 
 10. git push origin main . this is to push local repo content to remote repo 
+11. cd .. this is to come back to the main directory 
+12. mkdir folderName. this is to make a new folder in the current directory 
+13. git init . this is applied to a directory to make it a git repo
+14. git remote add origin remoteLink . 
+15. git remote -v . to verify remote
+16. git branch . this tell you the name of all the available branches . branches are different copies of the repo used by different teams
+17. git branch -M Newname . this is to rename your current branch 
+18. git pull origin main. this is used to fetch and download content from a remote repo and immedietly update the local repo to match that content
+19. git diff main . this is to get the differences of my current branch with my main branch 
+20. if i want to merge branches using the git hub itself then i have to compare and pull requestgit
+21. resolving merge conflic is an event that takes place when git is autmatically not able to resolve differences in code between 2 commits
+22. conflict arises while merging only when there is a difference between the same line 
+23. git checkout -b your-branch-name. this is to create a new branch 
+24. git push -u origin your-branch-name. this is to push branch to github. Think of it as setting a default "target" for future pushes and pulls. -u means setting upstream. After this, Git will remember:
+"Okay, when I'm on feature1, I’ll push to origin/feature1 on GitHub."
+25. This is the name of the remote repository — by default, origin refers to the GitHub repo you cloned from or are pushing to.
+
 
 
